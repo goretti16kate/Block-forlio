@@ -1,0 +1,135 @@
+body {
+  background-color: #020300;
+}
+.nav-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 8%;
+  z-index: 1;
+  /* background-color: aqua; */
+}
+.navbar {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  /* z-index: 1; */
+}
+
+.bulb {
+  margin-left: 10px;
+  height: 40px;
+  width: 40px;
+  float: left;
+  margin-top: -10px;
+}
+.nav-links-1 {
+  display: flex;
+  align-items: center;
+  float: left;
+  list-style: none;
+  padding-left: 10px;
+  padding-right: 40px;
+}
+.line {
+  height: 30px;
+  width: 2px;
+  background: #020300;
+  margin: 0;
+  margin-right: 1rem;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  text-decoration: none;
+  padding-right: 20px;
+  width: 100%;
+}
+.nav-links-item {
+  padding-right: 2rem;
+}
+.nav-links-text {
+  color: #020300;
+  text-decoration: none;
+  font-size: 14px;
+}
+nav {
+  background-color: #ebf2fa;
+  border-radius: 50px;
+  /* display: flex; */
+  padding: 0.5rem;
+}
+
+.contact {
+  margin-left: auto;
+}
+.awesome{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 20px;
+    background-color: #C28CAE;
+    text-decoration: none;
+    color: #020300;
+    font-size: 14px;
+}
+
+.subContainer{
+    background-color: #ebf2fa;
+    color: #020300;
+    display: flex;
+    padding-left: 50px;
+    /* text-align: center; */
+    align-items: center;
+    /* justify-content: center; */
+}
+.news{
+    font-size: 20px;
+    font-weight: 700;
+}
+.sub{
+    background-color: pink;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+}
+.footer{
+    background-color: blue;
+    margin: 0;
+    color: #ebf2fa;
+    text-align: center;
+    font-size: 14px;
+}
+@media only screen and (max-width: 1000px) {
+  body {
+    /* background-color: white; */
+    overflow-x: hidden;
+  }
+  .bulb {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .nav-links li.nav-links-item {
+    display: none;
+  }
+  .nav-links-1 {
+    margin-left: 30px;
+  }
+  .nav-links-item {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .nav-wrapper {
+    top: 0%;
+  }
+  .contact {
+    font-size: 10px;
+  }
+}

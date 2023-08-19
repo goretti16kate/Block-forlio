@@ -1,0 +1,70 @@
+.container{
+    /* background-color: blue; */
+    display: flex;
+}
+.img{
+    width: 33%;
+    padding: 30px;
+}
+.image{
+    height: 300px;
+    width: 300px;
+}
+.email{
+    width: 33%;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+.emailC{
+    /* background-color: black; */
+    border: 0.5px solid #ebf2fa;
+    height: 200px;
+    width: 300px;
+}
+.image-l{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.text{
+    color: white;
+    font-size: 13px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.emailtext{
+    font-weight: 700;
+    font-size: 13px;
+    display: flex;
+    color: #ebf2fa;
+}
+.etext{ 
+    padding: 20px;
+}
+.socials{
+    width: 33%;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.textS{
+    text-align: center;
+    color: #ebf2fa;
+    font-size: 13px;
+}
+.socialC{
+    border: 0.5px solid #ebf2fa;
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 250px;
+    height: 150px;
+}
+.socialtext{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.imageS{
+    height: 35px;
+    width: 35px;
+}
